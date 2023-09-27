@@ -1,0 +1,37 @@
+table{
+    border-style:solid;
+}
+
+h1{
+    color:darkred
+}
+
+p{
+    color:plum
+}
+
+th,td{
+border: 1px solid black;
+}
+
+thead{
+    background-color:darkmagenta;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+tbody th{
+    background-color:violet;
+    color: white;
+    text-align:left;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: lavender;
+}

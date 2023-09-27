@@ -1,0 +1,43 @@
+h1{color:violet;
+font-family: sans-serif;
+font-style: italic;
+font-size: 40px;
+background-color: black;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left:70px;
+text-shadow: rgb(179, 154, 255) 1px 0px 10px;
+}
+
+h2{
+    color:indigo;
+    font-variant:small-caps;
+    line-height:2;
+}
+
+body{
+    background-image: url("gingham.webp");
+}
+
+.pic{
+    float:left;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content:  space-between;
+}
+
+ul.info{
+    list-style-type:lower-roman;
+}
+
+.info li span{
+    text-decoration: underline wavy plum 1px;
+}
+
+a:hover {
+    color: black;
+    box-shadow: inset 500px 0 0 0 violet;
+  }
